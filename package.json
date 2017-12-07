@@ -1,13 +1,13 @@
 {
   "name": "hexagon-decoder",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A minimal video decoder app.",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
     "postinstall": "./node_modules/.bin/electron-rebuild"
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/dudewheresmycode/hexagon-decoder",
   "keywords": [
     "Electron",
     "quick",
