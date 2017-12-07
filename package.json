@@ -4,7 +4,8 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "postinstall": "./node_modules/.bin/electron-rebuild"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -17,9 +18,11 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "~1.7.8"
+    "electron": "~1.7.8",
+    "electron-rebuild": "^1.6.0"
   },
   "dependencies": {
+    "libavdecoder": "git+https://github.com/dudewheresmycode/node-libavdecoder.git",
     "yuv-buffer": "^1.0.0",
     "yuv-canvas": "^1.2.0"
   }
