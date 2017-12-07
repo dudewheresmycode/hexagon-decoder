@@ -1,0 +1,3 @@
+[submodule "node-libavdecoder"]
+	path = node-libavdecoder
+	url = https://github.com/dudewheresmycode/node-libavdecoder

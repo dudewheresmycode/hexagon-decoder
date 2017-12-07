@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Test Video Decoder</title>
+    <style>
+    #video-canvas {
+      background: #000;
+    }
+    </style>
+	</head>
+	<body>
+    <div class="canvas">
+      <canvas id="video-canvas" width="640" height="360"></canvas>
+    </div>
+    <div class="controls">
+      <button id="playbtn">Play Test File</button>
+      <button id="stopbtn" disabled>Stop</button>
+      <input id="progress" disabled type="range" min="0" max="100" value="0" />
+      <pre id="log"></pre>
+    </div>
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js')
+    </script>
+  </body>
+</html>
